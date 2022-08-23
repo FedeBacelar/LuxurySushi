@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FedeBacelar/LuxurySushi/static/css/main.81217b2c.css",
+    "main.js": "/FedeBacelar/LuxurySushi/static/js/main.1e71261a.js",
+    "static/js/787.891ae12a.chunk.js": "/FedeBacelar/LuxurySushi/static/js/787.891ae12a.chunk.js",
+    "static/media/Carta-Nigrini-Maki-Uramaki.png": "/FedeBacelar/LuxurySushi/static/media/Carta-Nigrini-Maki-Uramaki.5dd43c6e63602b877f2b.png",
+    "static/media/FondoCartaLuxury.png": "/FedeBacelar/LuxurySushi/static/media/FondoCartaLuxury.51001c9532fd22e00fcd.png",
+    "static/media/FondoInicio.jpg": "/FedeBacelar/LuxurySushi/static/media/FondoInicio.86ea7b682f6aa02d8fa1.jpg",
+    "static/media/FondoQuienesSomos.jpg": "/FedeBacelar/LuxurySushi/static/media/FondoQuienesSomos.1646bc6525b3c8acef25.jpg",
+    "static/media/GildaDisplay-Regular.ttf": "/FedeBacelar/LuxurySushi/static/media/GildaDisplay-Regular.5a052d3714f135fceb4f.ttf",
+    "static/media/LuxuryLogo.png": "/FedeBacelar/LuxurySushi/static/media/LuxuryLogo.d3fabef566bdde70e7b4.png",
+    "static/media/LogoMenu.png": "/FedeBacelar/LuxurySushi/static/media/LogoMenu.e4e91de8c8d5e3934a9b.png",
+    "index.html": "/FedeBacelar/LuxurySushi/index.html",
+    "main.81217b2c.css.map": "/FedeBacelar/LuxurySushi/static/css/main.81217b2c.css.map",
+    "main.1e71261a.js.map": "/FedeBacelar/LuxurySushi/static/js/main.1e71261a.js.map",
+    "787.891ae12a.chunk.js.map": "/FedeBacelar/LuxurySushi/static/js/787.891ae12a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81217b2c.css",
+    "static/js/main.1e71261a.js"
+  ]
+}
