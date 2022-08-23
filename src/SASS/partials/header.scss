@@ -1,0 +1,24 @@
+.Header{
+    background-color: black;
+    height: 8.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.1rem solid #d6be74;
+    &__ContenedorLogo{
+        height: 7.5rem;
+        &__Logo{
+            height: 7.5rem;
+        }
+    }
+    &__ContenedorLogoMenu{
+        height: 7.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: calc(100vw - 7.5rem);
+        &__LogoMenu{
+            height: 7.5rem;
+        }
+    }
+}

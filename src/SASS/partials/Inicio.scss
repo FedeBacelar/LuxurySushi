@@ -1,0 +1,41 @@
+.Inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 0.1rem solid #d6be74;
+    height: calc(100vh - 8.75rem);
+    &__Imagen{
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background: url("Img/FondoInicio.jpg") no-repeat center center fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        &__BotonPedir{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.35);
+            border: 0.1rem solid #d6be74;
+            font-size: 1em;
+            color: white;
+            width: 8rem;
+            height: 2.5rem;
+            box-shadow: 0px 0px 0.5rem #d6be74;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+                box-shadow: 0px 0px 1.2rem #d6be74;
+            }
+            
+        }   
+    }
+}
+.Carta{
+    height: 10rem;
+}

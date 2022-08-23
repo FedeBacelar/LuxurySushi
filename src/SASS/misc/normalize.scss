@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'GildaDisplay';
+    src: url('./fonts/GildaDisplay-Regular.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'GildaDisplay';
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}

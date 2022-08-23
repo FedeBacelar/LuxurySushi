@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
-}
+@font-face {
+  font-family: 'GildaDisplay';
+  src: url("./fonts/GildaDisplay-Regular.ttf"); }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'GildaDisplay';
+  scroll-behavior: smooth; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+::-webkit-scrollbar {
+  width: 0; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  background-color: black;
+  height: 8.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.1rem solid #d6be74; }
+  .Header__ContenedorLogo {
+    height: 7.5rem; }
+    .Header__ContenedorLogo__Logo {
+      height: 7.5rem; }
+  .Header__ContenedorLogoMenu {
+    height: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: calc(100vw - 7.5rem); }
+    .Header__ContenedorLogoMenu__LogoMenu {
+      height: 7.5rem; }
+
+.Inicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 0.1rem solid #d6be74;
+  height: calc(100vh - 8.75rem); }
+  .Inicio__Imagen {
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background: url("Img/FondoInicio.jpg") no-repeat center center fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .Inicio__Imagen__BotonPedir {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.35);
+      border: 0.1rem solid #d6be74;
+      font-size: 1em;
+      color: white;
+      width: 8rem;
+      height: 2.5rem;
+      box-shadow: 0px 0px 0.5rem #d6be74;
+      transition: 1s; }
+      .Inicio__Imagen__BotonPedir:hover {
+        transform: scale(1.2);
+        box-shadow: 0px 0px 1.2rem #d6be74; }
+
+.Carta {
+  height: 10rem; }
+
+.QuienesSomos {
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background: url("Img/FondoQuienesSomos.jpg") repeat center center fixed;
+  width: 100vw;
+  height: 100vh; }
+  .QuienesSomos__Contenedor {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .QuienesSomos__Contenedor__Parrafo {
+      color: white;
+      text-align: center;
+      width: 50rem;
+      font-size: 1.7em; }
+
+.Carta {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background: url("./Img/FondoCartaLuxury.png") repeat center center fixed;
+  min-height: 100vh;
+  height: auto; }
+  .Carta__Titulo {
+    margin: 3rem;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 3.75rem;
+    width: 18.75rem;
+    border: 0.1rem solid #d6be74;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .Carta__Contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    padding-bottom: 4rem; }
+    .Carta__Contenedor__Producto {
+      width: 10.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem; }
+      .Carta__Contenedor__Producto__Contenedor {
+        background-color: #242119;
+        border: 0.05rem solid #d6be74;
+        height: 12rem; }
+        .Carta__Contenedor__Producto__Contenedor--Imagen {
+          width: 100%; }
+      .Carta__Contenedor__Producto__Titulo {
+        font-size: 1em;
+        color: #af9b5d;
+        text-align: center; }
+      .Carta__Contenedor__Producto__Encargar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        height: 3rem;
+        border: 0.05rem solid #d6be74;
+        background-color: #242119;
+        transition: 0.5s; }
+        .Carta__Contenedor__Producto__Encargar:hover {
+          box-shadow: 0px 0px 10px #d6be74;
+          transform: scale(1.1); }
+      .Carta__Contenedor__Producto__Descripcion {
+        color: white; }
