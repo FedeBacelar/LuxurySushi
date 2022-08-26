@@ -1,0 +1,18 @@
+@media screen and(max-width: 700px){
+    .Header{
+        &__ContenedorLogoMenu{
+            width: 375px;
+        }
+    }
+    .Inicio{
+        &__Imagen{
+            background: url("Img/FondoInicioSM.jpg") no-repeat center center fixed;
+        }
+    }
+    .Carta{
+        background: url("./Img/FondoCartaLuxurySM.png") repeat center center fixed;
+    }
+    .QuinesSomos{
+        background: url("Img/FondoQuienesSomosSM.jpg") repeat center center fixed;
+    }
+}

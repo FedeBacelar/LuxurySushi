@@ -1,25 +1,12 @@
 import React from 'react'
 import './App.css';
 import Producto from './components/Producto';
-
+import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <header className = 'Header'>
-        <div className = 'Header__ContenedorLogo'>
-          <img 
-          className='Header__ContenedorLogo__Logo'
-          src={require('./Img/LuxuryLogo.png')} 
-          alt='Logo' />
-        </div>
-          <div className='Header__ContenedorLogoMenu'>
-            <img 
-            className='Header__ContenedorLogoMenu__LogoMenu'
-            src= {require('./Img/LogoMenu.png')}
-            alt='Logo del Menu' />
-          </div>
-      </header>
-
+      <Header 
+      dimension= 'SM' />
       <section className='Inicio'>
         <article className='Inicio__Imagen'>
           <a className='Inicio__Imagen__BotonPedir' href='#Carta'>Hace tu pedido</a>
